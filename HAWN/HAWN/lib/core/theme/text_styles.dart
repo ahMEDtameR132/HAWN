@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+class AppTextStyles {
+  static const TextStyle Text24app = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+  );
+  static const TextStyle Text14app = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 0, 0, 0),
+  );
+  static const TextStyle Text20app = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 255, 255, 255),
+  );
+}

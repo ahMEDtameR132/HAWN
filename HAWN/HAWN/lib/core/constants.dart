@@ -6,6 +6,7 @@ class Appconstants {
   static const SizedBox10 = SizedBox(height: 10);
   static const SizedBox15 = SizedBox(height: 15);
   static const SizedBox20 = SizedBox(height: 20);
+  static const SizedBox5w = SizedBox(width: 5);
   static const Divider1 = Divider(color: Colors.black, thickness: 2);
 }
 

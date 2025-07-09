@@ -12,8 +12,20 @@ class AppTextStyles {
 
     color: Color.fromARGB(255, 0, 0, 0),
   );
+  static const TextStyle Text18app = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 0, 0, 0),
+  );
   static const TextStyle Text20app = TextStyle(
     fontSize: 20,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 255, 255, 255),
+  );
+  static const TextStyle Text25app = TextStyle(
+    fontSize: 25,
     fontWeight: FontWeight.bold,
 
     color: Color.fromARGB(255, 255, 255, 255),

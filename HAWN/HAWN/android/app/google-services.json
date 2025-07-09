@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081421082905",
+    "project_id": "hawn-app",
+    "storage_bucket": "hawn-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081421082905:android:c70598b5ad4028fd93d588",
+        "android_client_info": {
+          "package_name": "com.example.hawn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlhelcOWcHykqKJ6cdeAFVyJP3Y7VXD7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

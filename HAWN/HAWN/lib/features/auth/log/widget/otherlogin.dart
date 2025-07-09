@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hwan/core/constants.dart';
+import 'package:hwan/core/theme/app_colors.dart';
 import 'package:hwan/core/theme/images.dart';
 
 class Otherlogin extends StatelessWidget {
@@ -14,11 +15,20 @@ class Otherlogin extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          ImageIcon(AssetImage(Appimages.facebook)),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.facebook, size: 40, color: AppColors.color1),
+          ),
           Appconstants.SizedBox5,
-          ImageIcon(AssetImage(Appimages.google)),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.apple, size: 40, color: AppColors.color1),
+          ),
           Appconstants.SizedBox5,
-          ImageIcon(AssetImage(Appimages.apple)),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.g_mobiledata, size: 40, color: AppColors.color1),
+          ),
         ],
       ),
     );

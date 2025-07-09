@@ -3,7 +3,9 @@ import 'package:hwan/core/constants.dart';
 import 'package:hwan/core/theme/app_colors.dart';
 import 'package:hwan/core/theme/text_styles.dart';
 import 'package:hwan/features/auth/log/widget/otherlogin.dart';
+import 'package:hwan/features/auth/log/widget/textbutton_login.dart';
 import 'package:hwan/features/auth/log/widget/textfild_log.dart';
+import 'package:hwan/features/auth/signin/sigin_page.dart';
 
 class Loginpage extends StatelessWidget {
   const Loginpage({super.key});
@@ -39,7 +41,8 @@ class Loginpage extends StatelessWidget {
             ),
             Appconstants.SizedBox10,
             //social media login buttons
-            // Otherlogin(),
+            Otherlogin(),
+            Appconstants.SizedBox15,
             //button login
             ElevatedButton(
               onPressed: () {},
@@ -51,12 +54,9 @@ class Loginpage extends StatelessWidget {
             Appconstants.SizedBox20,
             Appconstants.Divider1,
             Appconstants.SizedBox10,
+
             //other login options
-            Text(
-              "Dont have an account? Sign up",
-              style: AppTextStyles.Text14app,
-              textAlign: TextAlign.center,
-            ),
+            TextbuttonLogin(),
           ],
         ),
       ),

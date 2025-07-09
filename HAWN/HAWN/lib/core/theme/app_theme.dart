@@ -11,7 +11,11 @@ class AppTheme {
       secondary: const Color(0xFF9F9F9F),
     ),
     textTheme: const TextTheme(
-      headlineLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black87),
+      headlineLarge: TextStyle(
+        fontSize: 32,
+        fontWeight: FontWeight.bold,
+        color: Colors.black87,
+      ),
       bodyMedium: TextStyle(fontSize: 16, color: Colors.black87),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
@@ -19,9 +23,7 @@ class AppTheme {
         backgroundColor: Color(0xFFBDAFFF),
         foregroundColor: Colors.white,
         padding: EdgeInsets.symmetric(vertical: 16),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
     ),
   );
@@ -36,7 +38,11 @@ class AppTheme {
       secondary: const Color(0xFFB0BEC5),
     ),
     textTheme: const TextTheme(
-      headlineLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
+      headlineLarge: TextStyle(
+        fontSize: 32,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
       bodyMedium: TextStyle(fontSize: 16, color: Colors.white70),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
@@ -44,9 +50,7 @@ class AppTheme {
         backgroundColor: Color(0xFF8C9EFF),
         foregroundColor: Colors.white,
         padding: EdgeInsets.symmetric(vertical: 16),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
     ),
   );

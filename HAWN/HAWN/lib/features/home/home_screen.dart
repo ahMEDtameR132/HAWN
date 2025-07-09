@@ -1,7 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:hwan/core/theme/app_colors.dart';
-import 'home_content.dart'; // استدعاء الملف الثاني
+import 'package:hwan/features/mood/mood_screen.dart';
+import 'home_content.dart'; // الصفحة الرئيسية
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,9 +16,10 @@ class _HomeScreenState extends State<HomeScreen> {
   GlobalKey<CurvedNavigationBarState> bottomNavigationKey = GlobalKey();
 
   final List<Widget> screens = [
-    const HomeContent(),
+    const HomeContent(), // الصفحة الرئيسية
     const Center(child: Text("Play Page")),
     const Center(child: Text("Book Page")),
+    const MoodScreen(),
     const Center(child: Text("Settings Page")),
   ];
 
@@ -33,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Icon(Icons.home, size: 30),
           Icon(Icons.play_circle, size: 30),
           Icon(Icons.book, size: 30),
+          Icon(Icons.emoji_emotions, size: 30),
           Icon(Icons.settings_applications, size: 30),
         ],
         onTap: (index) {

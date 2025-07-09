@@ -30,4 +30,16 @@ class AppTextStyles {
 
     color: Color.fromARGB(255, 255, 255, 255),
   );
+  static const TextStyle Text25appblack = TextStyle(
+    fontSize: 25,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 0, 0, 0),
+  );
+  static const TextStyle Text16app = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+
+    color: Color.fromARGB(255, 0, 0, 0),
+  );
 }
